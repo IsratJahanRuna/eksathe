@@ -172,3 +172,19 @@ body {
     font-size: small;
     color: rgb(194, 192, 192);
 }
+
+
+/* .carousel-item {
+    animation: translatestf 10s linear infinite;
+} */
+
+
+/* @keyframes carousel-item {
+    100% {
+        transform: translate-x(calc(-250px * 4));
+    }
+} */
+
+.carousel-item {
+    transition: transform 2s ease;
+}
