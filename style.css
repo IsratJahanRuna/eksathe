@@ -32,6 +32,7 @@ body {
 .img-1 {
     grid-area: img-1;
     min-height: 41.5rem;
+    min-width: 28rem;
     /* opacity: .4; */
     background-image: url('Images/Content Card Hover (1).png');
 }
