@@ -173,18 +173,87 @@ body {
     color: rgb(194, 192, 192);
 }
 
-
-/* .carousel-item {
-    animation: translatestf 10s linear infinite;
-} */
-
-
-/* @keyframes carousel-item {
-    100% {
-        transform: translate-x(calc(-250px * 4));
-    }
-} */
-
-.carousel-item {
-    transition: transform 2s ease;
+.about-left {
+    width: 45%;
 }
+
+.about-left ul li {
+    list-style: none;
+    padding-bottom: 30px;
+}
+
+.about-left ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.about-right {
+    width: 80%;
+}
+
+.about-right h2 {
+    font-weight: bold;
+    line-height: 113%;
+    font-style: normal;
+    font-size: 40px;
+}
+
+.about-right .right-side {
+    display: flex;
+}
+
+.about-right .about-left-1 {
+    margin-top: 25px;
+    padding-right: 90px;
+}
+
+.about-right .about-left-1 a {
+    color: black;
+    font-weight: 700;
+}
+
+.about-right .about-right-1 {
+    margin-top: 25px;
+}
+
+.about-right .about-right-1 a {
+    color: black;
+    font-weight: 700;
+}
+
+.about-right .demo {
+    padding-top: 40px;
+}
+
+.founder-left .founder-note h2 {
+    font-weight: 700;
+}
+
+.founder-left .founder-content {
+    display: flex;
+}
+
+.founder-left .founder-content .founder-content-left {
+    width: 80%;
+    padding: 50px 100px 0px 0px;
+}
+
+.founder-left .founder-content .founder-content-right {
+    width: 80%;
+    padding: 0px 150px 0px 0px;
+}
+
+.founder-left .founder-team h2 {
+    color: black;
+    font-weight: 700;
+}
+
+.founder-left .founder-team-image {
+    display: flex;
+}
+
+
+/* .founder-left .founder-team-image .img2 h4
+{
+    padding-top: 20px;
+} */
