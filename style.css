@@ -49,7 +49,7 @@ body {
 
 .img-4 {
     grid-area: img-4;
-    /* min-width: 25rem; */
+    min-width: 26rem;
     min-height: 30rem;
     background-image: url("Images/Content Card 3.png");
 }
