@@ -32,8 +32,9 @@ body {
 .img-1 {
     grid-area: img-1;
     min-height: 41.5rem;
+    /* min-width: 28rem; */
     /* opacity: .4; */
-    background-image: url('Images/Content Card Hover.png');
+    background-image: url('Images/Content Card Hover (1).png');
 }
 
 .img-2 {
@@ -48,7 +49,7 @@ body {
 
 .img-4 {
     grid-area: img-4;
-    min-width: 32rem;
+    min-width: 26rem;
     min-height: 30rem;
     background-image: url("Images/Content Card 3.png");
 }
@@ -189,6 +190,7 @@ body {
 
 .about-right {
     width: 80%;
+    margin-left: -75px;
 }
 
 .about-right h2 {
