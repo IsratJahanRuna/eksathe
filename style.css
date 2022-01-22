@@ -254,8 +254,13 @@ body {
     display: flex;
 }
 
-
-/* .founder-left .founder-team-image .img2 h4
+.about-right .pillers
 {
-    padding-top: 20px;
-} */
+    display: flex;
+}
+
+.about-right .pillers
+{
+    padding-top: 30px;
+}
+
