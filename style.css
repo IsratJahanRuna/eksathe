@@ -264,3 +264,10 @@ body {
     padding-top: 30px;
 }
 
+#header {
+    color: red;
+    text-align: center;
+    font-weight: bold;
+    top: 0;
+    transition: 0.2s;
+  }
