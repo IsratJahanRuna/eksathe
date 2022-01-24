@@ -15,11 +15,11 @@ body {
 }
 
 .nav-item {
-    margin-left: 60px;
+    margin-left: 45px;
 }
 
 .sponsor {
-    margin-left: 400px;
+    margin-left: 250px;
 }
 
 .skill {
@@ -148,7 +148,7 @@ body {
 }
 
 .impact {
-    margin-left: 60px;
+    margin-left: 100px;
     margin-right: 40px;
 }
 
@@ -179,9 +179,54 @@ body {
     margin-left: 100px;
 }
 
+.projects-para-head {
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 45.2px;
+}
+
+.impact-bg {
+    background-color: rgb(238, 238, 238);
+    padding-inline: 100px;
+    margin-bottom: 100px;
+}
+
+.impact-button {
+    margin-left: 180px;
+}
+
+.impact-para {
+    margin-left: 20px;
+}
+
+.impact1 {
+    background-image: url(Images/Rectangle\ 14.png);
+    line-height: 10px;
+    color: white;
+    text-align: center;
+    padding-block: 100px;
+}
+
+.impact2 {
+    background-image: url(Images/impact2.png);
+    line-height: 10px;
+    color: white;
+    text-align: center;
+    padding-block: 100px;
+}
+
+.impact3 {
+    background-image: url(Images/impact3.png);
+    line-height: 10px;
+    color: white;
+    text-align: center;
+    padding-block: 100px;
+}
+
 .footer-section {
     background: #333333;
     padding-top: 70px;
+    margin-top: 100px;
 }
 
 .footer-left {
