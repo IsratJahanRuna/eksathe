@@ -21,8 +21,22 @@ body {
     margin-left: 45px;
 }
 
+.nav-color {
+    color: white;
+}
+
+.nav-link button {
+    border-color: white;
+    color: white;
+}
+
+.nav-link button:hover {
+    background: white;
+    color: black;
+}
+
 .sponsor {
-    margin-left: 250px;
+    margin-left: 220px;
 }
 
 .skill {

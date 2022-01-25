@@ -20,37 +20,37 @@
 <body>
 
     <!-- Navbar  Part-->
-    <nav class="navbar navbar-expand-lg navbar-light d-flex fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light d-flex fixed-top" id="nav">
         <div class="container-fluid" id="header">
-            <a class="navbar-brand" href="index.html"><img class="logo" src="Images/logo[white].png" alt=""></a>
+            <a class="navbar-brand" href="index.html"><img class="logo" id="nav-logo" src="Images/logo[white].png" alt=""></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
             <div class="collapse navbar-collapse" id="navbarToggleExternalContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
                     <li class="nav-item">
-                        <a class="nav-link text-light" aria-current="page" data-bs-toggle="modal" href="#exampleModal">About Us <i class="fas fa-chevron-down"></i></a>
+                        <a class="nav-link " aria-current="page" data-bs-toggle="modal" href="#exampleModal"><span class="nav-color" id="nav-color1">About Us <i class="fas fa-chevron-down"></i></span> </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-light" href="ourWorks.html">Our Work <i class="fas fa-chevron-down"></i></a>
+                        <a class="nav-link" href="ourWorks.html"><span class="nav-color" id="nav-color2">Our Work <i class="fas fa-chevron-down"></i></span> </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-light" href="projects.html">Projects <i class="fas fa-chevron-down"></i></a>
+                        <a class="nav-link" href="projects.html"><span class="nav-color" id="nav-color3">Projects <i class="fas fa-chevron-down"></i></span> </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-light" href="#">Join Us <i class="fas fa-chevron-down"></i></a>
+                        <a class="nav-link" href="#"><span class="nav-color" id="nav-color4">Join Us <i class="fas fa-chevron-down"></i></span> </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-light" href="#">Contact Us <i class="fas fa-chevron-down"></i></a>
+                        <a class="nav-link" href="#"><span class="nav-color" id="nav-color5">Contact Us <i class="fas fa-chevron-down"></i></span> </a>
                     </li>
                     <li class="nav-item sponsor">
-                        <a class="nav-link" href="#"> <button class="btn btn-outline-light  btn-sm py-2 pe-2">SPONSOR PROJECTS</button>
+                        <a class="nav-link" href="#"> <button class="btn btn-sm py-2 pe-2" id="sponsor">SPONSOR PROJECTS</button>
                         </a>
                     </li>
                 </ul>
                 <form class="d-flex search">
                     <input class="form-control border-0" style="background-color:rgba(0, 0, 0, 0); width:85px;" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-light border-0" type="submit"><i class="fas fa-search"></i></button>
+                    <a class="nav-link" href="#"><button class="btn border-0" type="submit" id="search"><i class="fas fa-search"></i></button></a>
                 </form>
             </div>
         </div>
@@ -301,12 +301,31 @@
 
         function scrollFunction() {
             if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-                document.getElementById("header").style.background = " #08C8CA ";
+                document.getElementById("header").style.background = " #FFFFFF ";
                 document.getElementById("header").style.margin = " auto ";
+                document.getElementById("nav").style.marginTop = "0px";
                 document.getElementById("header").style.paddingInlineStart = " 40px";
                 document.getElementById("header").style.paddingInlineEnd = " 40px";
+                document.getElementById("nav-color1").style.color = "#000000";
+                document.getElementById("nav-color2").style.color = "#000000";
+                document.getElementById("nav-color3").style.color = "#000000";
+                document.getElementById("nav-color4").style.color = "#000000";
+                document.getElementById("nav-color5").style.color = "#000000";
+                document.getElementById("sponsor").style.color = "#000000";
+                document.getElementById("sponsor").style.borderColor = "#000000";
+                document.getElementById("search").style.color = "#000000";
+                document.getElementById('nav-logo').src = "Images/logo[color] (1).png";
             } else {
                 document.getElementById("header").style.background = "transparent";
+                document.getElementById("nav-color1").style.color = "#FFFFFF ";
+                document.getElementById("nav-color2").style.color = "#FFFFFF ";
+                document.getElementById("nav-color3").style.color = "#FFFFFF ";
+                document.getElementById("nav-color4").style.color = "#FFFFFF ";
+                document.getElementById("nav-color5").style.color = "#FFFFFF ";
+                document.getElementById("sponsor").style.color = "#FFFFFF ";
+                document.getElementById("sponsor").style.borderColor = "#FFFFFF ";
+                document.getElementById("search").style.color = "#FFFFFF ";
+                document.getElementById('nav-logo').src = "Images/logo[white].png";
             }
         }
     </script>
