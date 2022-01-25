@@ -3,6 +3,9 @@ body {
     font-family: 'Poppins';
     ;
 }
+.navbar{
+    padding-top: 0px !important;
+}
 
 .container {
     width: 100%;
@@ -371,6 +374,33 @@ body {
 .about-right .demo {
     padding-top: 40px;
 }
+
+.about-right .right-side .button{
+    background-color: #c0c9c0; /* Green */
+    border: none;
+    color: black;
+    padding: 8px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin-right: 50px;
+    font-weight: 700;
+}
+
+.about-right .right-side .button5 {
+    background-color: transparent;
+    color: black;
+    border: 2px solid #555555;
+  }
+  
+  .about-right .right-side  .button5:hover {
+    background-color: #555555;
+    color: white;
+  }
 
 .founder-left .founder-note h2 {
     font-weight: 700;
