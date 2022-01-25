@@ -21,49 +21,38 @@
 
     <!-- Navbar  Part-->
 
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top d-flex justify-content-around " >
-        <div class="d-flex">
-            <a class="navbar-brand" href="index.html"><img src="Images/logo[white].png" alt=""></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar navbar-expand-lg navbar-light d-flex fixed-top">
+        <div class="container-fluid" id="header">
+            <a class="navbar-brand" href="index.html"><img class="logo" src="Images/logo[white].png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent" style="margin-left: 70px;">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle text-light" data-bs-toggle="modal" data-bs-target="#exampleModal" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  About Us
-                </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
+            <div class="collapse navbar-collapse" id="navbarToggleExternalContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                    <li class="nav-item">
+                        <a class="nav-link text-light" aria-current="page" data-bs-toggle="modal" href="#exampleModal">About Us <i class="fas fa-chevron-down"></i></a>
                     </li>
-                    <li class="nav-item" style="margin-left: 50px;">
-                        <a class="nav-link active text-light" aria-current="page" href="ourWorks.html">Our Work</a>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="ourWorks.html">Our Work <i class="fas fa-chevron-down"></i></a>
                     </li>
-                    <li class="nav-item" style="margin-left: 50px;">
-                        <a class="nav-link active text-light" href="#">Projects</a>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="projects.html">Projects <i class="fas fa-chevron-down"></i></a>
                     </li>
-                    <li class="nav-item" style="margin-left: 50px;">
-                        <a class="nav-link active text-light" aria-current="page" href="#">Career</a>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">Join Us <i class="fas fa-chevron-down"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="#">Contact Us <i class="fas fa-chevron-down"></i></a>
+                    </li>
+                    <li class="nav-item sponsor">
+                        <a class="nav-link" href="#"> <button class="btn btn-outline-light  btn-sm py-2 pe-2">SPONSOR PROJECTS</button>
+                        </a>
                     </li>
                 </ul>
-
-                <div class="d-flex" style="margin-left: 100px;">
-
-                    <button class="btn btn-outline-light  btn-sm py-2 pe-2">SPONSOR PROJECTS</button>
-
-
-                    <form class="d-flex" style="margin-left: 20px;">
-                        <input class="form-control border-0" style="background-color:rgba(0, 0, 0, 0); width:85px;" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-light border-0" type="submit"><i class="fas fa-search"></i></button>
-                    </form>
-
-                </div>
+                <form class="d-flex search">
+                    <input class="form-control border-0" style="background-color:rgba(0, 0, 0, 0); width:85px;" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-light border-0" type="submit"><i class="fas fa-search"></i></button>
+                </form>
             </div>
         </div>
     </nav>
@@ -79,7 +68,7 @@
         </div>
         <div class="carousel-inner" style="animation: slideshow 5s linear infinite;">
             <div class="carousel-item active">
-                <img src="Images/shutterstock_1605253342 1.png" style="height:700px;" class="d-block w-100" alt="...">
+                <img src="Images/shutterstock_1605253342 1 (2).png" style="height:700px;" class="d-block w-100" alt="...">
             </div>
             <!-- <div class="carousel-item">
                 <img src="Images/shutterstock_1605253342 1.png" class="d-block w-100" style="height:700px;" alt="...">
@@ -115,21 +104,21 @@
                 <div class="pillers">
                     <div class="col-md-3 img1" style="margin-right: 60px;">
                         <img src="Images/Frame 21.png" class="d-block w-100" alt="...">
-                        
+
                     </div>
                     <div class="col-md-3 img2" style="margin-right: 60px;">
                         <img src="Images/Frame 23.png" class="d-block w-100" alt="...">
-                        
+
                     </div>
                     <div class="col-md-3 img3" style="margin-right: 60px; ">
                         <img src="Images/Frame 22.png" class="d-block w-100" alt="...">
-                        
+
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    
+
     <!-- Problem solving framework -->
 
     <div class="mt-5 d-flex" style="margin-bottom: 60px;">
@@ -142,9 +131,9 @@
                 <h2 style="padding-top: 20px;">Problem Solving Framework</h2>
             </div>
             <div class="mission" style="color: #111010; text-align: justify; padding: 20px 300px 0px 0px;">
-                <h2>Larade. Preda. Prehede.  Latåsm. Dorenat. Telegen. </h2>
-                <p>Raplande ojåning, rett. Rerögen plabelt. Prehiment fyhära fysm. Kassade sengen ode. Mikroteda miröde hunt. Antissade plasam. Nement. Visa ehäl. Vist analig makronivis. Ultraktig hyposeligen. Roprenat pseudokronar. Kronar bigon, kror.
-                    Kåras virask pregyrad.</p>
+                <h2>Larade. Preda. Prehede. Latåsm. Dorenat. Telegen. </h2>
+                <p>Raplande ojåning, rett. Rerögen plabelt. Prehiment fyhära fysm. Kassade sengen ode. Mikroteda miröde hunt. Antissade plasam. Nement. Visa ehäl. Vist analig makronivis. Ultraktig hyposeligen. Roprenat pseudokronar. Kronar bigon, kror. Kåras
+                    virask pregyrad.</p>
             </div>
         </div>
     </div>
@@ -255,6 +244,23 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+    <script>
+        // When the user scrolls down 50px from the top of the document, resize the header's font size
+        window.onscroll = function() {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 600 || document.documentElement.scrollTop > 600) {
+                document.getElementById("header").style.background = " #53759A ";
+                document.getElementById("header").style.margin = " auto ";
+                document.getElementById("header").style.paddingInlineStart = " 40px";
+                document.getElementById("header").style.paddingInlineEnd = " 40px";
+            } else {
+                document.getElementById("header").style.background = "transparent";
+            }
+        }
+    </script>
 </body>
 
 </html>
