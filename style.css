@@ -3,7 +3,8 @@ body {
     font-family: 'Poppins';
     ;
 }
-.navbar{
+
+.navbar {
     padding-top: 0px !important;
 }
 
@@ -341,7 +342,7 @@ body {
     margin-left: -75px;
 }
 
-.about-right h2 {
+.about-right h2 h3 {
     font-weight: bold;
     line-height: 113%;
     font-style: normal;
@@ -375,8 +376,9 @@ body {
     padding-top: 40px;
 }
 
-.about-right .right-side .button{
-    background-color: #c0c9c0; /* Green */
+.about-right .right-side .button {
+    background-color: #c0c9c0;
+    /* Green */
     border: none;
     color: black;
     padding: 8px 32px;
@@ -395,12 +397,12 @@ body {
     background-color: transparent;
     color: black;
     border: 2px solid #555555;
-  }
-  
-  .about-right .right-side  .button5:hover {
+}
+
+.about-right .right-side .button5:hover {
     background-color: #555555;
     color: white;
-  }
+}
 
 .founder-left .founder-note h2 {
     font-weight: 700;
@@ -443,6 +445,24 @@ body {
     font-weight: bold;
     top: 0;
     transition: 0.2s;
+}
+
+.form-email {
+    border: none;
+    border-bottom: 1px solid;
+    color: black;
+}
+
+.form-email::-webkit-input-placeholder {
+    transition: text-indent 0.4s 0.4s ease;
+    text-indent: -100%;
+    opacity: 1;
+}
+
+.write-us {
+    font-weight: bold;
+    font-size: 35px;
+    Line-height: 27.12px;
 }
 
 @media screen and (min-width: 481px) and (max-width: 668px) {
