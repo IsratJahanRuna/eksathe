@@ -459,6 +459,12 @@ body {
     opacity: 1;
 }
 
+.write-us {
+    font-weight: bold;
+    font-size: 35px;
+    Line-height: 27.12px;
+}
+
 @media screen and (min-width: 481px) and (max-width: 668px) {
     #header {
         margin-left: 1px;
