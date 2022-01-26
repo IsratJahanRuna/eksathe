@@ -3,7 +3,8 @@ body {
     font-family: 'Poppins';
     ;
 }
-.navbar{
+
+.navbar {
     padding-top: 0px !important;
 }
 
@@ -341,7 +342,7 @@ body {
     margin-left: -75px;
 }
 
-.about-right h2 {
+.about-right h2 h3 {
     font-weight: bold;
     line-height: 113%;
     font-style: normal;
@@ -375,8 +376,9 @@ body {
     padding-top: 40px;
 }
 
-.about-right .right-side .button{
-    background-color: #c0c9c0; /* Green */
+.about-right .right-side .button {
+    background-color: #c0c9c0;
+    /* Green */
     border: none;
     color: black;
     padding: 8px 32px;
@@ -395,12 +397,12 @@ body {
     background-color: transparent;
     color: black;
     border: 2px solid #555555;
-  }
-  
-  .about-right .right-side  .button5:hover {
+}
+
+.about-right .right-side .button5:hover {
     background-color: #555555;
     color: white;
-  }
+}
 
 .founder-left .founder-note h2 {
     font-weight: 700;
