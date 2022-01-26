@@ -447,6 +447,18 @@ body {
     transition: 0.2s;
 }
 
+.form-email {
+    border: none;
+    border-bottom: 1px solid;
+    color: black;
+}
+
+.form-email::-webkit-input-placeholder {
+    transition: text-indent 0.4s 0.4s ease;
+    text-indent: -100%;
+    opacity: 1;
+}
+
 @media screen and (min-width: 481px) and (max-width: 668px) {
     #header {
         margin-left: 1px;
