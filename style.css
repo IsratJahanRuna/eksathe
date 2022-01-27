@@ -72,6 +72,12 @@ body {
     width: 100%;
 }
 
+.eksathe-vision-para {
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 56.02px;
+}
+
 .view-works button {
     margin-top: 120px;
     margin-left: 130px;
@@ -113,7 +119,7 @@ body {
     min-height: 41.5rem;
     /* min-width: 28rem; */
     /* opacity: .4; */
-    background-image: url('Images/Content Card Hover (1).png');
+    background-image: url('Images/Content Card Hover (3).png');
 }
 
 .img-2 {
@@ -479,7 +485,7 @@ body {
         margin-left: 1px;
     }
     .search {
-        margin-left: 200px;
+        margin-left: 160px;
         margin-bottom: 50px;
     }
     .logo {
@@ -514,18 +520,21 @@ body {
     .carousel_slider {
         margin-left: -200px;
     }
-    /* .eksathe-vision {
-        margin-left: 20px;
-    } */
-    .eksathe-vision p {
-        font-size: 11.5px;
+    .eksathe-vision-para1 {
+        font-size: 32px;
+        font-weight: bold;
+        line-height: 35.02px;
+    }
+    .eksathe-vision-para2 {
+        font-size: 14px;
+        line-height: 20.02px;
     }
     .view-works {
         /* margin-left: 0px; */
     }
     .view-works button {
-        margin-top: 0px;
-        /* margin-left: 30px; */
+        margin-top: 70px;
+        /* margin-left: 100px; */
         font-size: 13px;
     }
     .gallery {
