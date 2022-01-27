@@ -8,9 +8,8 @@ body {
     padding-top: 0px !important;
 }
 
-.container {
-    width: 100%;
-    max-width: 120rem;
+.cont {
+    margin-left: 60px;
     /* padding: 0 1.5rem; */
 }
 
@@ -73,17 +72,9 @@ body {
     width: 100%;
 }
 
-.eksathe-vision {
-    margin-left: 60px;
-}
-
-.view-works {
-    margin-left: 60px;
-}
-
 .view-works button {
-    margin-top: 100px;
-    margin-left: 180px;
+    margin-top: 120px;
+    margin-left: 130px;
 }
 
 .gallery {
@@ -168,10 +159,22 @@ body {
 .impact {
     margin-left: 100px;
     margin-right: 40px;
+    margin-block: 60px;
+}
+
+.impact div {
+    margin-top: 80px;
 }
 
 .support {
     background-color: rgb(236, 232, 232);
+    margin-left: 100px;
+    margin-right: 40px;
+    /* margin-block: 60px; */
+}
+
+.support div {
+    padding: 50px;
 }
 
 .support h2 {
@@ -184,17 +187,17 @@ body {
 
 .volunteer {
     background-color: #00BABC;
-    margin-left: 100px;
+    /* margin-left: 100px; */
 }
 
 .team {
     background-color: #0DB14B;
-    margin-left: 100px;
+    /* margin-left: 100px; */
 }
 
 .project {
     background-color: #F37121;
-    margin-left: 100px;
+    /* margin-left: 100px; */
 }
 
 .projects-para-head {
@@ -511,21 +514,18 @@ body {
     .carousel_slider {
         margin-left: -200px;
     }
-    .eksathe-vision {
-        margin-left: 30px;
-    }
-    .eksathe-vision img {
-        width: 400px;
-    }
+    /* .eksathe-vision {
+        margin-left: 20px;
+    } */
     .eksathe-vision p {
         font-size: 11.5px;
     }
     .view-works {
-        margin-left: 0px;
+        /* margin-left: 0px; */
     }
     .view-works button {
         margin-top: 0px;
-        margin-left: 30px;
+        /* margin-left: 30px; */
         font-size: 13px;
     }
     .gallery {
